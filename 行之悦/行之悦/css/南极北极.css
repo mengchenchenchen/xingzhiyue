@@ -1,0 +1,265 @@
+section .bgImg{
+	width: 100%;
+	height:750px;
+	background-image: url(../imgs/南极北极/2017614142831364.jpg);
+	background-repeat: no-repeat;
+	padding-top: 450px;
+}
+section .bgImg .title{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+section .bgImg .title a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 0 0 5px grey;
+}
+section .bgImg .title a h1{
+	margin-bottom: 20px;
+}
+section .bgImg .title .time-go{
+	font-size: 18px;
+}
+section .inner-table{
+	margin-top:30px;
+	width: 100%;
+}
+section .inner-table table{
+	width: 1200px;
+	/*height: 100px;*/
+	margin: auto;
+	min-width: 1200px;
+}
+section .inner-table table tr{
+	border:1px solid #e9e9e9;
+	height: 50px;
+}
+section .inner-table table tr td>span{
+	color:#696969;
+	text-decoration: none; 
+	padding:10px 20px;
+}
+section .inner-table table tr td a{
+	width: 60px;
+	color:#696969;
+	text-decoration: none;
+	padding: 10px 10px;
+	margin:0 5px;
+	position: relative;
+}
+section .inner-table table tr td a:hover{
+	background-color: #b7d637;
+}
+section .inner-table table tr td a.active{
+	background-color: #b7d637;
+}
+section .inner-table table tr td a>span{
+	padding-left: 5px;
+}
+section .inner-table table .area_hot{
+	display: none;
+}
+section .inner-table table .destination a>i {
+	width: 18px;
+	height: 10px;
+	background-image: url(../imgs/南极北极/halfFree_t.png);
+	background-repeat: no-repeat;
+	background-size: center bottom;
+	position: absolute;
+	left: 30%;
+	bottom:-10px;
+	display: none;
+}
+section .container .icon_box{
+	width: 100%;
+	margin: 30px auto;
+	border:1px solid #e8e8e8;
+}
+section .container .icon_box:hover{
+	box-shadow: 0 0 10px #e8e8e8;
+}
+section .container .icon_box div:first-child{
+	position: relative;
+	overflow: hidden;
+}
+section .container .icon_box .img_style{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0,0,0,0);
+	position: absolute;
+	top:0;
+	left: 0;
+}
+section .container .icon_box:hover .img_style{
+	background-color:rgba(0,0,0,0.3);
+}
+section .container .icon_box .img_tag{
+	position: absolute;
+	top: 10%;
+	left:-60%;
+	transition: all 500ms;
+}
+section .container .icon_box .img_tag>b{
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	display: inline-block;
+} 
+section .container .icon_box .img_tag .tag_1{
+	width: 40px;
+	height: 20px;
+	background-color: #219421;
+}
+section .container .icon_box .img_tag .tag_2{
+	width: 50px;
+	height: 20px;
+	background-color: #f505f5;
+}
+section .container .icon_box .img_tag .tag_3{
+	width:40px;
+	height: 20px;
+	background-color: #ffb700;
+}
+section .container .icon_box .img_tag .tag_4{
+	width:60px;
+	height: 20px;
+	background-color: #00fff2;
+}
+section .container .icon_box .img_tag .travel_days{
+	display: block;
+	margin-top: 20px;
+	text-align:left;
+	font-size: 15px;
+}
+section .container .icon_box:hover .img_tag {
+	left: 12%;
+	/*display: block;*/
+}
+section .container .icon_box .money{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #686a70;
+	position: absolute;
+	bottom: 20px;
+	left: 5%;
+	transition: all 500ms;
+}
+section .container .icon_box:hover .money{
+	left: 15%;
+	background-color: #b7d637;
+}
+section .container .img_box{
+	width: 100%;
+} 
+section .container .img_box img{
+	width: 100%;
+	transition: all 1s;
+}
+section .container .icon_box:hover img{
+	transform: scale(1.2);
+}
+section .container .title_info{
+	padding:20px;
+}
+section .container .title{
+	margin:20px 0;
+	color: #8d8d8d;
+}
+section .container .subheading{
+	margin:20px 0 ;
+	height: 40px;
+}
+section .container .time_go{
+	margin:20px 0;
+	color: #8d8d8d;
+}
+section .container .collect_box{
+	display: flex;
+	width: 100%;
+	height: 20px;
+	/*border:1px solid blue;*/
+}
+section .container .collect_box>a,
+section .container .collect_box span{
+	display: block;
+	width: 35px;
+	height: 20px;
+	background-image: url(../imgs/ico.png);
+	background-repeat: no-repeat;
+	margin-right: 10px;
+}
+section .container .collect_box .collect{
+	background-position:-2px -686px;
+}
+section .container .collect_box .eyes{
+	background-position:-67px -686px;
+}
+section .container .collect_box .eyes:hover{
+	background-image: url(../imgs/ico.png);
+	background-position: -67px -707px;
+}
+section .container .collect_box .share_box{
+	background-position: -35px -686px;
+	position: relative;
+}
+section .container .collect_box .times{
+	color: #b4b4b4;
+}
+section .container .collect_box .share{
+	width: 100px;
+	height: 140px;	
+	position: absolute;
+	top:20px;
+	right: 35px;
+	text-align: center;
+	border:1px solid #bcbcbc;
+	background-color: white;
+	display: none;
+	z-index: 100;
+}
+section .container .share>a{
+	display: block;
+	width: 100%;
+	height: 70px;
+	text-decoration: none;
+	border-bottom:1px solid #bcbcbc;
+}
+section .container .share a i{
+	display:block;
+	width: 40px;
+	height: 35px;
+	margin:auto;
+	background-repeat: no-repeat;
+}
+section .container .share .shareWB:hover{
+	background-color:#d52b2a;
+}
+section .container .share .shareWX:hover{
+	background-color:#86c610;
+}
+section .container .share .shareWB i{
+	background-image: url(../imgs/南极北极/share1.png);
+}
+section .container .share .shareWX i{
+	background-image: url(../imgs/南极北极/share2.png);
+}
+section .container .share .shareWB:hover i{
+	background-image: url(../imgs/南极北极/share11.png);
+}
+section .container .share .shareWX:hover i{
+	background-image: url(../imgs/南极北极/share22.png);
+}
+section .container .share a h6{
+	margin:5px 0;
+	color: #8d8d8d;
+}
+section .container .share a:hover h6{
+	color: white;
+}
+section .container .share_box:hover .share{
+	display:inline-block;
+} 
+
